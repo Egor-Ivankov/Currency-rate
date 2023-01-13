@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612706335_145-p-dengi-na-zelenom-fone-193.jpg");
+  background-color: rgba(220, 220, 212, 0.495);
+}
+
+.main-container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.usd {
+  display: inline;
+  border: 1px solid rgba(154, 150, 150, 0.794);
+  border-radius: 5px;
+  padding-right: 10px;
+  background-color: rgba(79, 113, 79, 0.339);
+  box-shadow: 2px 0.5px rgba(154, 150, 150, 0.794);
+}
+
+.euro {
+  display: inline;
+  border: 1px solid rgba(154, 150, 150, 0.794);
+  border-radius: 5px;
+  padding-right: 10px;
+  background-color: rgba(115, 94, 133, 0.488);
+  box-shadow: 2px 0.5px rgba(154, 150, 150, 0.794);
+}
+
+.usd-badge {
+  padding: 15px;
+
+}
+
+.euro-badge {
+  padding: 12px;
+}
